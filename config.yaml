@@ -1,0 +1,29 @@
+# config.yaml
+
+environment:
+    farm_dims: [4000, 4000]
+    min_distance_rotors: 4
+
+turbine:
+    max_turbines: 20
+    hub_height: 100.0
+    rotor_diameter: 112.0
+    rated_power: 3000.0
+    cut_in_speed: 3.0
+    rated_speed: 13.0
+    cut_out_speed: 25.0
+
+training:
+    total_episodes: 1000
+    gamma: 0.99
+    tau: 0.005
+    critic_lr: 0.001
+    actor_lr: 0.0005
+
+exploration:
+    num_random_steps: 500
+    noise_std_dev_factor: 0.2 
+
+buffer:
+    capacity: 100000
+    batch_size: 128
