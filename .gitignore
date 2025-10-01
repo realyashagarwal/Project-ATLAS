@@ -1,0 +1,17 @@
+# Python temporary files
+__pycache__/
+*.pyc
+
+# Environment folder
+/atlas_env/
+
+# VS Code settings
+.vscode/
+
+# Data files (optional, good practice if they are large)
+# If your .tif and .lib files are very large, you can add them here
+# data/*.tif
+# data/*.lib
+
+# Output files
+outputs/
